@@ -1,6 +1,5 @@
-import jQuery from 'jquery';
 import angular from 'angular';
-import uiDate from './date.js';
+import uiDate from 'angular-ui-date';
 
 // themes required outside of uiDate to allow customization
 require('jquery-ui/themes/base/jquery-ui.css');

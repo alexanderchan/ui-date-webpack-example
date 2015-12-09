@@ -13,10 +13,11 @@
   "author": "Alex Chan <alexander.m.chan@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "angular-ui-date": "0.0.11",
     "babel-loader": "6.2.0",
     "babel-preset-es2015": "6.3.13",
     "html-webpack-plugin": "1.7.0",
-    "webpack": "1.12.9"
-  }
+    "webpack": "1.12.9",
+    "angular-ui-date": "file:../ui-date-alex"
+  },
+  "dependencies": {}
 }
