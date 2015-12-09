@@ -7,5 +7,6 @@ require('jquery-ui/themes/base/minified/jquery-ui.min.css');
 
 export default angular.module('MyTest', [uiDate.name])
   .controller('MyCtrl', ['$scope', function($scope) {
-    $scope.myDate = new Date('2015-11-17');
+    $scope.hello = 'Hello this is your date:';
+    $scope.myDate = new Date(2015, 11, 17);
   }]);
